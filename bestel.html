@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+<script>
+    function takevalue()
+    {
+        var fname=document.getElementById("voornaam").value;
+        var tname=document.getElementById("tussenvoegsel").value;
+        var lname=document.getElementById("achternaam").value;
+        var sname=document.getElementById("straat").value;
+        var sname=document.getElementById("huisnummer").value;
+        var sname=document.getElementById("postcode").value;
+        var sname=document.getElementById("woonplaats").value;
+        var sname=document.getElementById("telefoonnummer").value;
+        var sname=document.getElementById("email").value;
+        var sname=document.getElementById("rekeningnummer").value;
+        document.write("Beste: "+fname+" "+ tname+" "+lname+", "+"Bedankt voor uw bestelling bij meubel.com");
+        // document.write("SECOND NAME : "+sname+"<br>");
+        // document.write("SECOND NAME : "+sname+"<br>");
+    }
+</script>
+
+
+</head>
+
+<body>
+    <div id="container">
+        <h1 style="color: rgb(174, 115, 55);font-variant: small-caps;">Please Enter the Details</h1>
+        <form onsubmit="takevalue()">
+            <div id="contentformfieldset">
+                <fieldset>
+                    <legend>
+                        <h2>Tekstvelden</h2>
+                    </legend>
+                    <p><label for="voornaam">Voornaam:</label> <input id="voornaam" type="text" name="Voornaam:" />
+                    <p>
+
+                    <p><label for="achternaam">Tussenvoegsel:</label> <input type="tussenvoegsel" id="tussenvoegsel" name="Achternaam:" />
+                    <p>
+
+                    <p><label for="achternaam">Achternaam:</label><input type="achternaam" id="achternaam" name="pwd" /></p>
+                </fieldset>
+
+
+                <fieldset>
+                    <legend>
+                        <h2>Tekstvelden</h2>
+                    </legend>
+                    <p><label for="straat">Straat:</label> <input id="straat" type="text" name="Straat:" />
+                    <p>
+
+                    <p><label for="huisnummer">Huisnummer:</label> <input type="huisnummer" id="huisnummer" name="huisnummer:" />
+                    
+
+                    <p><label for="postcode">Postcode:</label><input type="postcode" id="postcode" name="pwd" /></p>
+
+                    <p><label for="woonplaats">Woonplaats</label><input type="woonplaats" id="woonplaats" name="pwd" /></p>
+                </fieldset>
+
+
+<fieldset>
+                <p><label for="Telefoonnummer">Telefoonnummer:</label> <input type="telefoonnummer" id="telefoonnummer" name="telefoonnummer:" />
+                    
+
+                    <p><label for="e-mail">e-mailadres:</label><input type="e-mail" id="email" name="pwd" /></p>
+
+                    <p><label for="rekeningnummer">rekeningnummer:</label><input type="rekeningnummer" id="rekeningnummer" name="pwd" /></p>
+                </fieldset>
+                    <fieldset>
+                        <h2>Submit Knop</h2>
+                        <p><input type="submit" value="Verzenden"></p>
+                    </fieldset>
+                </div>
+            </div>
+        </form>
+
+
+        </form>
+        <form action=""></form>
+
+</body>
+
+
+</div>
+
+</html>

@@ -298,4 +298,18 @@ ul.thumb li img{
     color: black;
     position: relative;
     bottom: 1000px;
+    width: 300px;
+    left: 50px;
+}
+
+#copyright2{
+    color: black;
+    position: relative;
+    right: 300px;
+    top: 950px;
+}
+
+#informatieProduct{
+    position: relative;
+    bottom: 1000px;
 }
